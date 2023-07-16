@@ -18,9 +18,18 @@ p {
     color:green;
 }
 
-.center {
+.table {
     margin-left: auto;
     margin-right: auto;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+    background-color: lightcyan;
+    border: 1px solid;
 }
 
 
@@ -28,6 +37,7 @@ body {
     margin: 8px;
     display: block;
     background-color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif 
 }
 
 h1 {
@@ -40,8 +50,14 @@ h1 {
 h2, h3, p {
     padding-left: 5%;
     padding-right: 5%;
-
 }
+
+ul {
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: larger;
+}
+
 
 figcaption {
 	font-style: italic;
@@ -52,11 +68,13 @@ figcaption {
 table {
     width: 50%;
     border: 1px solid;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
   
 th {
     height: 20px;
-    background-color: cornflowerblue;
+    background-color: rgb(81, 135, 235);
     color:black;
 }
 
@@ -66,6 +84,11 @@ td {
 
 tr:nth-child(even) {
     border: 1px solid;
-    background-color: #f2f2f2;
+    background-color: #afd0e8;
 }
 
+footer {
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+}
