@@ -64,7 +64,7 @@ figcaption {
 
 
 table {
-    width: 50%;
+    width: 70%;
     border: 1px solid;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -75,15 +75,13 @@ table {
 th {
     height: 20px;
     background-color: rgb(81, 135, 235);
-    color:black;
 }
 
 td {
     text-align: center;
 }
 
-tr:nth-child(even) {
-    border: 1px solid;
+tr:nth-child(odd) {
     background-color: #afd0e8;
 }
 
