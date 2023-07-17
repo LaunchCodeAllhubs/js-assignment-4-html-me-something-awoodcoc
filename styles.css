@@ -22,7 +22,7 @@
 
 body {
     margin: 8px;
-    max-width: 999px;
+    width: 60%;
     padding-left: 50px;
     padding-right: 50px;
     display: block;
